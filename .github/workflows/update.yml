@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20.14.0
+          token: ${{ secrets.NPM_TOKEN }}
+          cache: npm
 
       - name: Setup EAS
         uses: expo/expo-github-action@v8
