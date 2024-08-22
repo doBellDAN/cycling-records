@@ -40,6 +40,12 @@
         "projectId": "dececd98-1e08-414d-aa77-186824af6315"
       }
     },
-    "owner": "maxlxq"
+    "owner": "maxlxq",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/dececd98-1e08-414d-aa77-186824af6315"
+    }
   }
 }
